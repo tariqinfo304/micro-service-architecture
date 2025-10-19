@@ -23,6 +23,12 @@ spring:
             - Path=/product/**
           filters:
             - StripPrefix=1
+        - id: api-aggregator
+          uri: lb://api-aggregator
+          predicates:
+            - Path=/aggregator/**
+          filters:
+            - StripPrefix=1
 
 eureka:
   client:
