@@ -1,0 +1,5 @@
+message: Hello from central config repo!
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

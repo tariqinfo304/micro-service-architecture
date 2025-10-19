@@ -1,0 +1,11 @@
+# Maven / Java
+**/target/
+**/*.jar
+**/*.war
+
+# IDE files
+**/.idea/
+**/*.iml
+
+# Logs
+**/*.log
